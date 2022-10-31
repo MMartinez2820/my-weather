@@ -5,7 +5,7 @@ import Time from './components/Time';
 
 function App() {
   const [ weather, setWeather ] = useState({});
-  const [ isCelsius, setIsCelsius ] = useState(true);
+  const [ isCelsius, setIsCelsius ] = useState();
 
   useEffect (() => {
 
