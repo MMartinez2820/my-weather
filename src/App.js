@@ -91,7 +91,7 @@ function App() {
     </div>
     <div className='image_container'>
       <div className='img_cont'>
-        <img src={`https://openweathermap.org/img/wn/${weather.weather?.[0].icon}@2x.png`} />
+        <img src= {`https://openweathermap.org/img/wn/${weather.weather?.[0].icon}@2x.png` } alt="descripción de la imagen"/>
         <p>
         {isCelsius ?  Math.floor((((weather.main?.temp - 273.15)* 9/5 + 32)- 32) * 5/9): Math.floor((weather.main?.temp - 273.15)* 9/5 + 32)}
         {' '}
